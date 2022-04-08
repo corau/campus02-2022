@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+    color: blue;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 50px;
+}
+
+.strophe {
+    font-size: 14px;
+}
+
+#content {
+    text-align: center;
+}
+
+#content, .strophe {
+    color: grey;
+}
+
+body  p {
+    font-size: 25px;
+}
+
+.strophe:hover {
+    color: red;
+}
+
+.strophe:nth-child(2) {
+    color: blue;
+}
